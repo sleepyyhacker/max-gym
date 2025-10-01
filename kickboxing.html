@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Kickboksen Zoetermeer - Max Gym</title>
+    
+    <!-- Performance optimizations -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    
+    <!-- Preconnect for critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Load fonts with proper fallbacks - Power & Strength Theme -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap">
+    
+    <!-- Custom woff2 fonts -->
+    <style>
+        @font-face {
+            font-family: 'Capsmall';
+            src: url('fonts/Capsmall.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'Capsmall Clean';
+            src: url('fonts/Capsmall_clean.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+    </style>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="max-gym-styles.css">
+    <link rel="stylesheet" href="new-sections-styles.css">
+</head>
+<body class="loading">
+
+<!-- Supergym-Style Navigation -->
+<nav class="supergym-nav">
+    <div class="nav-container">
+        <!-- Logo -->
+        <div class="nav-logo">
+            <a href="index.html">
+                <div class="logo-container">
+                    <img src="IMAGES/Max Gym Logo transparant.png" alt="Max Gym Logo" class="logo-image">
+                </div>
+            </a>
+        </div>
+
+        <!-- Navigation Menu -->
+        <div class="nav-menu">
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li class="dropdown">
+                    <a href="#training" class="nav-link">Aanbod</a>
+                    <div class="dropdown-content">
+                        <a href="personal-training.html">Personal Training</a>
+                        <a href="circuit-training.html">Circuit Training</a>
+                        <a href="kickboxing.html" class="nav-link active">Kickboksen</a>
+                        <a href="jeugdlessen.html">Jeugdlessen</a>
+                    </div>
+                </li>
+                <li><a href="abonnementen.html" class="nav-link">Abonnementen</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="nav-cta">
+            <a href="gratis-intake.html" class="cta-button">
+                GRATIS INTAKE
+            </a>
+        </div>
+
+        <!-- Mobile Toggle -->
+        <button class="mobile-toggle" id="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-links">
+            <a href="index.html">Home</a>
+            <a href="personal-training.html">Personal Training</a>
+            <a href="circuit-training.html">Circuit Training</a>
+            <a href="kickboxing.html">Kickboksen</a>
+            <a href="jeugdlessen.html">Jeugdlessen</a>
+            <a href="abonnementen.html">Abonnementen</a>
+            <a href="contact.html">Contact</a>
+            <a href="gratis-intake.html" class="mobile-cta">GRATIS INTAKE</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="trainmore-hero section-dark">
+    <div class="hero-background">
+        <div class="hero-slide active" style="background-image: url('IMAGES/Naamloos-66.jpg');"></div>
+    </div>
+    
+    <div class="hero-overlay"></div>
+    
+    <!-- Hero Content -->
+    <div class="hero-content">
+        <div class="hero-badge">
+            <span class="badge-text">Kickboksen Zoetermeer</span>
+        </div>
+        
+        <h1 class="hero-title">
+            <span class="title-main capsmall-text">KICKBOKSEN</span>
+            <span class="title-sub capsmall-clean-text">Max Gym Zoetermeer</span>
+        </h1>
+        
+        <p class="hero-description">Kickboksen bij Max Gym Zoetermeer voor discipline, zelfverdediging en totale lichaamsfitness! Van beginner tot gevorderd - iedereen kan meedoen in een veilige en professionele omgeving.</p>
+        
+        <div class="hero-actions">
+            <a href="gratis-intake.html" class="hero-cta-primary">
+                <span>Plan Gratis Intake</span>
+            </a>
+            <a href="abonnementen.html" class="hero-cta-primary" style="background: transparent; border: 2px solid #FA104A;">
+                <span>Bekijk Pakketten</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Kickboxing Content -->
+<section class="content non-critical section-dark">
+    <div class="container">
+        <h2 class="section-title">Martial Arts voor iedereen</h2>
+        <p class="company-description" style="font-size: 1.3rem; font-weight: 500; text-align: center; max-width: 900px; margin: 0 auto 3rem auto; line-height: 1.8;">Kickboksen is een complete sport die kracht, conditie, coördinatie en mentale discipline combineert. Bij Max Gym leer je niet alleen de technieken, maar ontwikkel je ook zelfvertrouwen, discipline en een gezonde levensstijl.</p>
+        
+        <div class="services-grid">
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="IMAGES/Naamloos-66.jpg" alt="Discipline en zelfverdediging" loading="lazy">
+                </div>
+                <div class="service-icon">DISCIPLINE</div>
+                <h3>Discipline en zelfverdediging</h3>
+                <p>Leer effectieve zelfverdedigingstechnieken terwijl je discipline en zelfvertrouwen ontwikkelt. Perfect voor alle leeftijden en niveaus.</p>
+            </div>
+            
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="IMAGES/Naamloos-70.jpg" alt="Totale lichaamsfitness" loading="lazy">
+                </div>
+                <div class="service-icon">FITNESS</div>
+                <h3>Totale lichaamsfitness</h3>
+                <p>Kickboksen is een van de meest complete workouts. Je traint kracht, conditie, flexibiliteit en coördinatie in één sessie.</p>
+            </div>
+            
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="IMAGES/Naamloos-67.jpg" alt="Veilige omgeving" loading="lazy">
+                </div>
+                <div class="service-icon">VEILIG</div>
+                <h3>Veilige omgeving</h3>
+                <p>Professionele begeleiding in een veilige omgeving. Onze ervaren trainers zorgen voor de juiste techniek en veiligheid.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Benefits Section -->
+<section class="benefits-section section-gray">
+    <div class="benefits-container">
+        <h2 class="benefits-title">Waarom Kickboksen bij Max Gym?</h2>
+        
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Complete workout</h3>
+                    <p>Kickboksen traint je hele lichaam - van kracht en conditie tot flexibiliteit en coördinatie. Een van de meest effectieve workouts.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Zelfverdediging</h3>
+                    <p>Leer praktische zelfverdedigingstechnieken die je in het dagelijks leven kunt gebruiken. Verhoog je zelfvertrouwen en veiligheid.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Stress relief</h3>
+                    <p>Kickboksen is een uitstekende manier om stress te verminderen. Laat je frustraties los en voel je energieker en ontspannen.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Discipline en focus</h3>
+                    <p>Ontwikkel mentale discipline, focus en doorzettingsvermogen. Vaardigheden die je ook buiten de sportschool helpen.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Training Levels -->
+<section class="content non-critical section-dark">
+    <h1 class="section-title">KICKBOKSEN <span class="highlight brush-marker-accent">NIVEAUS</span></h1>
+    
+    <div class="training-levels">
+        <div class="level-card">
+            <div class="level-badge">BEGINNER</div>
+            <h3>Beginners Kickboksen</h3>
+            <p>Perfect voor mensen die nog nooit hebben gekickbokst. Je leert de basis technieken, stoten, trappen en verdediging in een veilige omgeving.</p>
+            <ul>
+                <li>Basis technieken</li>
+                <li>Stoot- en traptechnieken</li>
+                <li>Verdediging</li>
+                <li>Veiligheid en etiquette</li>
+            </ul>
+        </div>
+        
+        <div class="level-card">
+            <div class="level-badge">GEMIDDELD</div>
+            <h3>Gevorderd Kickboksen</h3>
+            <p>Voor mensen met enige ervaring. We bouwen verder op de basis en introduceren geavanceerde technieken en combinaties.</p>
+            <ul>
+                <li>Geavanceerde combinaties</li>
+                <li>Sparring technieken</li>
+                <li>Conditie training</li>
+                <li>Strategie en tactiek</li>
+            </ul>
+        </div>
+        
+        <div class="level-card">
+            <div class="level-badge">GEVORDERD</div>
+            <h3>Expert Kickboksen</h3>
+            <p>Voor ervaren kickboksers die hun techniek willen perfectioneren en uitgedaagd willen worden met intensieve trainingen.</p>
+            <ul>
+                <li>Perfectionering techniek</li>
+                <li>Intensieve sparring</li>
+                <li>Wedstrijd training</li>
+                <li>Mentale training</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Class Schedule -->
+<section class="schedule-section section-gray">
+    <div class="schedule-container">
+        <h2 class="schedule-title">Kickboksen Rooster</h2>
+        <p>Onze kickboksen lessen zijn geschikt voor alle niveaus en worden gegeven door ervaren trainers.</p>
+        
+        <div class="schedule-grid">
+            <div class="schedule-day">
+                <h3>Maandag</h3>
+                <div class="schedule-classes">
+                    <div class="class-item">
+                        <span class="class-time">19:00 - 20:00</span>
+                        <span class="class-level">Beginners</span>
+                    </div>
+                    <div class="class-item">
+                        <span class="class-time">20:00 - 21:00</span>
+                        <span class="class-level">Gevorderd</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="schedule-day">
+                <h3>Woensdag</h3>
+                <div class="schedule-classes">
+                    <div class="class-item">
+                        <span class="class-time">19:00 - 20:00</span>
+                        <span class="class-level">Gemiddeld</span>
+                    </div>
+                    <div class="class-item">
+                        <span class="class-time">20:00 - 21:00</span>
+                        <span class="class-level">Expert</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="schedule-day">
+                <h3>Vrijdag</h3>
+                <div class="schedule-classes">
+                    <div class="class-item">
+                        <span class="class-time">18:00 - 19:00</span>
+                        <span class="class-level">Beginners</span>
+                    </div>
+                    <div class="class-item">
+                        <span class="class-time">19:00 - 20:00</span>
+                        <span class="class-level">Gevorderd</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section section-pattern">
+    <div class="cta-container">
+        <h2>Start met Kickboksen</h2>
+        <p>Plan vandaag nog je gratis intake en ontdek hoe kickboksen jouw fitness en zelfvertrouwen kan verbeteren.</p>
+        <div class="cta-buttons">
+            <a href="gratis-intake.html" class="cta-button">Plan Gratis Intake</a>
+            <a href="abonnementen.html" class="cta-button" style="color: white; background: transparent; border: 2px solid #6c1dff;">Bekijk Pakketten</a>
+        </div>
+    </div>
+</section>
+
+<!-- TrainMore-Style Footer -->
+<footer class="trainmore-footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <div class="footer-logo-text capsmall-text">MAX GYM</div>
+        </div>
+        
+        <div class="footer-links">
+            <div class="footer-section">
+                <h4>OVER MAX</h4>
+                <ul>
+                    <li><a href="index.html">Over Max</a></li>
+                    <li><a href="abonnementen.html">Pakketten</a></li>
+                    <li><a href="contact.html">Merchandise</a></li>
+                    <li><a href="contact.html">Virtual tour</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>PLANS & COACHING</h4>
+                <ul>
+                    <li><a href="contact.html">Lifestyle Coaching</a></li>
+                    <li><a href="contact.html">Online Coaching</a></li>
+                    <li><a href="contact.html">Meal plans</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>TRAININGEN</h4>
+                <ul>
+                    <li><a href="personal-training.html">Personal Training</a></li>
+                    <li><a href="circuit-training.html">Circuit Training</a></li>
+                    <li><a href="kickboxing.html">Kickboksen</a></li>
+                    <li><a href="jeugdlessen.html">Jeugdlessen</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>CONTACT</h4>
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html">Openingstijden</a></li>
+                    <li><a href="contact.html">Locatie</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p><strong>Openingstijden:</strong> Ma t/m Vr: 06:00 - 21:30 | Za & Zo: 07:00 - 18:00</p>
+            <p><strong>Max Gym B.V.</strong> KvK 96744065 | Tel: +31 6 23395561 | Adres: Wattstraat 52 2723 RD, Zoetermeer</p>
+            <p><strong>Volg ons:</strong> Instagram | TikTok</p>
+            <div class="footer-legal">
+                <a href="#terms">Algemene voorwaarden</a>
+                <a href="#privacy">Privacy</a>
+                <a href="#cookies">Cookies</a>
+                <a href="#club-rules">Dongelreglement</a>
+                <a href="#house-rules">Huisreglement</a>
+            </div>
+            <p>&copy; 2025 Brand Survivors - Sinds 2023 - MAX GYM</p>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="max-gym-script.js"></script>
+
+</body>
+</html>

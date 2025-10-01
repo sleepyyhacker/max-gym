@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Abonnementen Zoetermeer - Max Gym</title>
+    
+    <!-- Performance optimizations -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    
+    <!-- Preconnect for critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Load fonts with proper fallbacks - Power & Strength Theme -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap">
+    
+    <!-- Custom woff2 fonts -->
+    <style>
+        @font-face {
+            font-family: 'Capsmall';
+            src: url('fonts/Capsmall.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'Capsmall Clean';
+            src: url('fonts/Capsmall_clean.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+    </style>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="max-gym-styles.css">
+    <link rel="stylesheet" href="new-sections-styles.css">
+</head>
+<body class="loading">
+
+<!-- Supergym-Style Navigation -->
+<nav class="supergym-nav">
+    <div class="nav-container">
+        <!-- Logo -->
+        <div class="nav-logo">
+            <a href="index.html">
+                <div class="logo-container">
+                    <img src="IMAGES/Max Gym Logo transparant.png" alt="Max Gym Logo" class="logo-image">
+                </div>
+            </a>
+        </div>
+
+        <!-- Navigation Menu -->
+        <div class="nav-menu">
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li class="dropdown">
+                    <a href="#training" class="nav-link">Aanbod</a>
+                    <div class="dropdown-content">
+                        <a href="personal-training.html">Personal Training</a>
+                        <a href="circuit-training.html">Circuit Training</a>
+                        <a href="kickboxing.html">Kickboksen</a>
+                        <a href="jeugdlessen.html">Jeugdlessen</a>
+                    </div>
+                </li>
+                <li><a href="abonnementen.html" class="nav-link active">Abonnementen</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="nav-cta">
+            <a href="gratis-intake.html" class="cta-button">
+                GRATIS INTAKE
+            </a>
+        </div>
+
+        <!-- Mobile Toggle -->
+        <button class="mobile-toggle" id="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-links">
+            <a href="index.html">Home</a>
+            <a href="personal-training.html">Personal Training</a>
+            <a href="circuit-training.html">Circuit Training</a>
+            <a href="kickboxing.html">Kickboksen</a>
+            <a href="jeugdlessen.html">Jeugdlessen</a>
+            <a href="abonnementen.html">Abonnementen</a>
+            <a href="contact.html">Contact</a>
+            <a href="gratis-intake.html" class="mobile-cta">GRATIS INTAKE</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="trainmore-hero section-dark">
+    <div class="hero-background">
+        <div class="hero-slide active" style="background-image: url('IMAGES/Naamloos-55.jpg');"></div>
+    </div>
+    
+    <div class="hero-overlay"></div>
+    
+    <!-- Hero Content -->
+    <div class="hero-content">
+        <div class="hero-badge">
+            <span class="badge-text">Abonnementen Max Gym</span>
+        </div>
+        
+        <h1 class="hero-title">
+            <span class="title-main capsmall-text">ABONNEMENTEN</span>
+            <span class="title-sub capsmall-clean-text">Max Gym Zoetermeer</span>
+        </h1>
+        
+        <p class="hero-description">Altijd een fitnesspakket dat bij jou past. Bij Max-Gym Zoetermeer sport je op de manier die bij jou past: individueel, samen met een partner of online vanuit huis. Kies uit diverse opties zoals Personal Training, Duo Training, Jeugdlessen & Ouder-Kind Training, Voedingsschema & Lifestyle Coaching, en vrij trainen in onze sportschool.</p>
+        
+        <div class="hero-actions">
+            <a href="gratis-intake.html" class="hero-cta-primary">
+                <span>Plan Gratis Intake</span>
+            </a>
+            <a href="contact.html" class="hero-cta-primary" style="background: transparent; border: 2px solid #FA104A;">
+                <span>Contact</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Membership Section -->
+<section class="membership-section section-pattern">
+    <div class="membership-container">
+        <h2 class="membership-title">Altijd een <span class="brush-marker-double">fitnesspakket</span> dat bij jou past</h2>
+        <p class="membership-subtitle">Bij Max-Gym Zoetermeer sport je op de manier die bij jou past: individueel, samen met een partner of online vanuit huis. Kies uit diverse opties zoals Personal Training Zoetermeer, Duo Training, Jeugdlessen & Ouder-Kind Training, Voedingsschema & Lifestyle Coaching, en vrij trainen in onze sportschool met moderne Panatta-apparatuur van topkwaliteit.</p>
+        
+        <div class="membership-cards">
+            <div class="membership-card">
+                <div class="membership-header">
+                    <h3>BASIC</h3>
+                </div>
+                <div class="membership-price">
+                    <span class="price-amount">€35</span>
+                    <span class="price-period">/maand</span>
+                </div>
+                <ul class="membership-features">
+                    <li>Vrij trainen in de sportschool</li>
+                    <li>Moderne Panatta-apparatuur</li>
+                    <li>Max Gym App toegang</li>
+                    <li>Maandelijks opzegbaar</li>
+                    <li>Geen inschrijfkosten</li>
+                </ul>
+                <a href="gratis-intake.html" class="membership-button">Gratis proefles</a>
+            </div>
+            
+            <div class="membership-card featured">
+                <div class="membership-badge">Populairst</div>
+                <div class="membership-header">
+                    <h3>PREMIUM</h3>
+                </div>
+                <div class="membership-price">
+                    <span class="price-amount">€55</span>
+                    <span class="price-period">/maand</span>
+                </div>
+                <ul class="membership-features">
+                    <li>Alles van Basic</li>
+                    <li>1x Personal Training per maand</li>
+                    <li>Voedingsadvies & Lifestyle Coaching</li>
+                    <li>Toegang tot alle groepslessen</li>
+                    <li>Online coaching toegang</li>
+                </ul>
+                <a href="gratis-intake.html" class="membership-button">Gratis proefles</a>
+            </div>
+            
+            <div class="membership-card">
+                <div class="membership-badge">Beste deal</div>
+                <div class="membership-header">
+                    <h3>UNLIMITED</h3>
+                </div>
+                <div class="membership-price">
+                    <span class="price-amount">€75</span>
+                    <span class="price-period">/maand</span>
+                </div>
+                <ul class="membership-features">
+                    <li>Alles van Premium</li>
+                    <li>Onbeperkt Personal Training</li>
+                    <li>Online Coaching & Meal Plans</li>
+                    <li>24/7 toegang tot de sportschool</li>
+                    <li>Prioriteit bij reserveringen</li>
+                </ul>
+                <a href="gratis-intake.html" class="membership-button">Gratis proefles</a>
+            </div>
+        </div>
+        
+        <div class="membership-cta">
+            <a href="gratis-intake.html" class="membership-cta-button">Plan Gratis Intake</a>
+        </div>
+    </div>
+</section>
+
+<!-- Additional Services -->
+<section class="services-section section-gray">
+    <div class="services-container">
+        <h2 class="services-title">Extra Services</h2>
+        <p class="services-subtitle">Naast onze reguliere abonnementen bieden wij ook speciale services en trainingen aan.</p>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">PT</div>
+                <h3>Personal Training</h3>
+                <p>Individuele begeleiding door ervaren trainers. Perfect voor specifieke doelen en persoonlijke aandacht.</p>
+                <ul>
+                    <li>1-op-1 begeleiding</li>
+                    <li>Training op maat</li>
+                    <li>Flexibele tijden</li>
+                    <li>Voortgangsmonitoring</li>
+                </ul>
+                <div class="service-price">Vanaf €45 per sessie</div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">DUO</div>
+                <h3>Duo Training</h3>
+                <p>Train samen met een partner, vriend of familielid. Meer motivatie en lagere kosten per persoon.</p>
+                <ul>
+                    <li>Training met partner</li>
+                    <li>Extra motivatie</li>
+                    <li>Lagere kosten</li>
+                    <li>Gezamenlijke doelen</li>
+                </ul>
+                <div class="service-price">Vanaf €30 per persoon</div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">FAMILY</div>
+                <h3>Ouder-Kind Training</h3>
+                <p>Speciale sessies voor ouders en kinderen. Perfect voor familie bonding en een gezonde levensstijl.</p>
+                <ul>
+                    <li>Gezinsfitness</li>
+                    <li>Veilige omgeving</li>
+                    <li>Leeftijdsgeschikt</li>
+                    <li>Bonding momenten</li>
+                </ul>
+                <div class="service-price">Vanaf €35 per sessie</div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">ONLINE</div>
+                <h3>Online Coaching</h3>
+                <p>Begeleiding waar en wanneer je wilt. Perfect voor drukke levensstijlen en flexibele training.</p>
+                <ul>
+                    <li>Flexibele tijden</li>
+                    <li>Thuis trainen</li>
+                    <li>App begeleiding</li>
+                    <li>Voedingsadvies</li>
+                </ul>
+                <div class="service-price">Vanaf €25 per maand</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Benefits Section -->
+<section class="benefits-section section-dark">
+    <div class="benefits-container">
+        <h2 class="benefits-title">Waarom kiezen voor Max Gym?</h2>
+        
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Geen inschrijfkosten</h3>
+                    <p>Start direct zonder extra kosten. Geen verborgen kosten of verrassingen.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Maandelijks opzegbaar</h3>
+                    <p>Flexibiliteit staat voorop. Opzeggen wanneer je wilt zonder boetes of verplichtingen.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Moderne apparatuur</h3>
+                    <p>Train met de nieuwste Panatta-apparatuur van topkwaliteit. Professionele fitnessapparatuur.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Ervaren trainers</h3>
+                    <p>Professionele begeleiding door ervaren trainers die vaak ex-topsporters zijn.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Max Gym App</h3>
+                    <p>Houd je voortgang bij met onze handige app. Trainingen, voeding en doelen in één app.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Flexibele tijden</h3>
+                    <p>Train wanneer het jou uitkomt. Van vroeg in de ochtend tot laat in de avond.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section section-gray">
+    <div class="faq-container">
+        <h2 class="faq-title">Veelgestelde Vragen</h2>
+        
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h3>Kan ik mijn abonnement opzeggen?</h3>
+                <p>Ja, alle abonnementen zijn maandelijks opzegbaar. Geen verborgen kosten of opzegtermijnen.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Zijn er inschrijfkosten?</h3>
+                <p>Nee, wij vragen geen inschrijfkosten. Je betaalt alleen de maandelijkse kosten van je abonnement.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Kan ik een proefles volgen?</h3>
+                <p>Ja, plan een gratis intake en proefles om te kijken of Max Gym bij jou past.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Wat zijn de openingstijden?</h3>
+                <p>Maandag t/m vrijdag: 06:00 - 21:30 | Zaterdag & zondag: 07:00 - 18:00</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Kan ik mijn abonnement wijzigen?</h3>
+                <p>Ja, je kunt altijd overstappen naar een ander abonnement dat beter bij jouw behoeften past.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Is er begeleiding beschikbaar?</h3>
+                <p>Ja, onze ervaren trainers staan klaar om je te helpen met techniek, motivatie en het bereiken van je doelen.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section section-pattern">
+    <div class="cta-container">
+        <h2>Start vandaag nog</h2>
+        <p>Plan je gratis intake en ontdek welk abonnement het beste bij jou past. Geen verplichtingen, alleen informatie.</p>
+        <div class="cta-buttons">
+            <a href="gratis-intake.html" class="cta-button">Plan Gratis Intake</a>
+            <a href="contact.html" class="cta-button" style="color: white; background: transparent; border: 2px solid #6c1dff;">Contact</a>
+        </div>
+    </div>
+</section>
+
+<!-- TrainMore-Style Footer -->
+<footer class="trainmore-footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <div class="footer-logo-text capsmall-text">MAX GYM</div>
+        </div>
+        
+        <div class="footer-links">
+            <div class="footer-section">
+                <h4>OVER MAX</h4>
+                <ul>
+                    <li><a href="index.html">Over Max</a></li>
+                    <li><a href="abonnementen.html">Pakketten</a></li>
+                    <li><a href="contact.html">Merchandise</a></li>
+                    <li><a href="contact.html">Virtual tour</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>PLANS & COACHING</h4>
+                <ul>
+                    <li><a href="contact.html">Lifestyle Coaching</a></li>
+                    <li><a href="contact.html">Online Coaching</a></li>
+                    <li><a href="contact.html">Meal plans</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>TRAININGEN</h4>
+                <ul>
+                    <li><a href="personal-training.html">Personal Training</a></li>
+                    <li><a href="circuit-training.html">Circuit Training</a></li>
+                    <li><a href="kickboxing.html">Kickboksen</a></li>
+                    <li><a href="jeugdlessen.html">Jeugdlessen</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>CONTACT</h4>
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html">Openingstijden</a></li>
+                    <li><a href="contact.html">Locatie</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p><strong>Openingstijden:</strong> Ma t/m Vr: 06:00 - 21:30 | Za & Zo: 07:00 - 18:00</p>
+            <p><strong>Max Gym B.V.</strong> KvK 96744065 | Tel: +31 6 23395561 | Adres: Wattstraat 52 2723 RD, Zoetermeer</p>
+            <p><strong>Volg ons:</strong> Instagram | TikTok</p>
+            <div class="footer-legal">
+                <a href="#terms">Algemene voorwaarden</a>
+                <a href="#privacy">Privacy</a>
+                <a href="#cookies">Cookies</a>
+                <a href="#club-rules">Dongelreglement</a>
+                <a href="#house-rules">Huisreglement</a>
+            </div>
+            <p>&copy; 2025 Brand Survivors - Sinds 2023 - MAX GYM</p>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="max-gym-script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Contact Zoetermeer - Max Gym</title>
+    
+    <!-- Performance optimizations -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    
+    <!-- Preconnect for critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Load fonts with proper fallbacks - Power & Strength Theme -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap">
+    
+    <!-- Custom woff2 fonts -->
+    <style>
+        @font-face {
+            font-family: 'Capsmall';
+            src: url('fonts/Capsmall.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'Capsmall Clean';
+            src: url('fonts/Capsmall_clean.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+    </style>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="max-gym-styles.css">
+    <link rel="stylesheet" href="new-sections-styles.css">
+</head>
+<body class="loading">
+
+<!-- Supergym-Style Navigation -->
+<nav class="supergym-nav">
+    <div class="nav-container">
+        <!-- Logo -->
+        <div class="nav-logo">
+            <a href="index.html">
+                <div class="logo-container">
+                    <img src="IMAGES/Max Gym Logo transparant.png" alt="Max Gym Logo" class="logo-image">
+                </div>
+            </a>
+        </div>
+
+        <!-- Navigation Menu -->
+        <div class="nav-menu">
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li class="dropdown">
+                    <a href="#training" class="nav-link">Aanbod</a>
+                    <div class="dropdown-content">
+                        <a href="personal-training.html">Personal Training</a>
+                        <a href="circuit-training.html">Circuit Training</a>
+                        <a href="kickboxing.html">Kickboksen</a>
+                        <a href="jeugdlessen.html">Jeugdlessen</a>
+                    </div>
+                </li>
+                <li><a href="abonnementen.html" class="nav-link">Abonnementen</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="nav-cta">
+            <a href="gratis-intake.html" class="cta-button">
+                GRATIS INTAKE
+            </a>
+        </div>
+
+        <!-- Mobile Toggle -->
+        <button class="mobile-toggle" id="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-links">
+            <a href="index.html">Home</a>
+            <a href="personal-training.html">Personal Training</a>
+            <a href="circuit-training.html">Circuit Training</a>
+            <a href="kickboxing.html">Kickboksen</a>
+            <a href="jeugdlessen.html">Jeugdlessen</a>
+            <a href="abonnementen.html">Abonnementen</a>
+            <a href="contact.html">Contact</a>
+            <a href="gratis-intake.html" class="mobile-cta">GRATIS INTAKE</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="trainmore-hero section-dark">
+    <div class="hero-background">
+        <div class="hero-slide active" style="background-image: url('IMAGES/Naamloos-74.jpg');"></div>
+    </div>
+    
+    <div class="hero-overlay"></div>
+    
+    <!-- Hero Content -->
+    <div class="hero-content">
+        <div class="hero-badge">
+            <span class="badge-text">Contact Max Gym</span>
+        </div>
+        
+        <h1 class="hero-title">
+            <span class="title-main capsmall-text">CONTACT</span>
+            <span class="title-sub capsmall-clean-text">Max Gym Zoetermeer</span>
+        </h1>
+        
+        <p class="hero-description">Dé sportschool van Zoetermeer. Je vindt Max-Gym aan de Wattstraat 52 in Zoetermeer. Schrijf je vandaag nog in, plan een gratis intake of ontdek ons via de virtuele tour.</p>
+        
+        <div class="hero-actions">
+            <a href="gratis-intake.html" class="hero-cta-primary">
+                <span>Plan Gratis Intake</span>
+            </a>
+            <a href="#contact-form" class="hero-cta-primary" style="background: transparent; border: 2px solid #FA104A;">
+                <span>Stuur Bericht</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact-section" class="contact-section non-critical section-dark">
+    <div class="contact-left">
+        <h1>DÉ SPORTSCHOOL VAN ZOETERMEER</h1>
+        <p><strong>Je vindt Max-Gym aan de Wattstraat 52 in Zoetermeer.</strong> Schrijf je vandaag nog in, plan een <span class="brush-marker-splatter">gratis intake</span> of ontdek ons via de virtuele tour. Max-Gym Zoetermeer – jouw sportschool voor fitness, personal training en kickboksen.</p>
+        <div class="contact-info">
+            <div class="contact-item">
+                <span class="contact-icon">LOCATION</span>
+                <div>
+                    <strong>Max Gym Zoetermeer</strong>
+                    <p>Wattstraat 52, 2723 RD<br>Zoetermeer, Zuid-Holland</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">PHONE</span>
+                <div>
+                    <strong>Telefoon</strong>
+                    <p>+31 6 23395561</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">TIME</span>
+                <div>
+                    <strong>Openingstijden</strong>
+                    <p>Ma. tm vr. 06:00-21:30<br>Za. tm zo. 07:00-18:00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-right" id="contact-form">
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Jouw Naam" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Jouw Email" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" placeholder="Jouw Telefoon">
+            </div>
+            <div class="form-group">
+                <select required>
+                    <option value="">Selecteer Dienst</option>
+                    <option value="personal-training">Personal Training</option>
+                    <option value="circuit-training">Circuit Training</option>
+                    <option value="kickboxing">Kickboksen</option>
+                    <option value="jeugdlessen">Jeugdlessen</option>
+                    <option value="online-coaching">Online Coaching</option>
+                    <option value="abonnementen">Abonnementen</option>
+                    <option value="algemeen">Algemene vraag</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Vertel ons over jouw fitnessdoelen" rows="4"></textarea>
+            </div>
+            <button type="submit" class="submit-button">VERSTUUR BERICHT</button>
+        </form>
+    </div>
+</section>
+
+<!-- Location Section -->
+<section class="location-section section-gray">
+    <div class="location-container">
+        <h2 class="location-title">Bezoek onze sportschool</h2>
+        <p class="location-subtitle">Max Gym Zoetermeer is gevestigd in het hart van Zoetermeer, gemakkelijk bereikbaar met het openbaar vervoer en auto.</p>
+        
+        <div class="location-grid">
+            <div class="location-info">
+                <h3>Locatie Details</h3>
+                <div class="location-details">
+                    <div class="detail-item">
+                        <strong>Adres:</strong>
+                        <p>Wattstraat 52, 2723 RD Zoetermeer</p>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Bereikbaarheid:</strong>
+                        <p>Gemakkelijk bereikbaar met auto en openbaar vervoer</p>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Parkeren:</strong>
+                        <p>Gratis parkeren voor leden</p>
+                    </div>
+                    <div class="detail-item">
+                        <strong>OV:</strong>
+                        <p>5 minuten lopen vanaf station Zoetermeer</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="location-map">
+                <div class="map-placeholder">
+                    <h3>Google Maps</h3>
+                    <p>Wattstraat 52, 2723 RD Zoetermeer</p>
+                    <a href="https://maps.google.com/?q=Wattstraat+52+Zoetermeer" target="_blank" class="map-link">Bekijk op Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Opening Hours Section -->
+<section class="hours-section section-dark">
+    <div class="hours-container">
+        <h2 class="hours-title">Openingstijden</h2>
+        
+        <div class="hours-grid">
+            <div class="hours-card">
+                <h3>Maandag - Vrijdag</h3>
+                <div class="hours-time">06:00 - 21:30</div>
+                <p>Vroege vogels en avondmensen welkom</p>
+            </div>
+            
+            <div class="hours-card">
+                <h3>Zaterdag</h3>
+                <div class="hours-time">07:00 - 18:00</div>
+                <p>Weekend training mogelijk</p>
+            </div>
+            
+            <div class="hours-card">
+                <h3>Zondag</h3>
+                <div class="hours-time">07:00 - 18:00</div>
+                <p>Rustige zondag training</p>
+            </div>
+        </div>
+        
+        <div class="hours-note">
+            <p><strong>Let op:</strong> Tijdens feestdagen kunnen de openingstijden afwijken. Check onze social media voor updates.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Social Media Section -->
+<section class="social-section section-gray">
+    <div class="social-container">
+        <h2 class="social-title">Volg ons op Social Media</h2>
+        <p class="social-subtitle">Blijf op de hoogte van onze laatste updates, tips en evenementen.</p>
+        
+        <div class="social-links">
+            <a href="#" class="social-link">
+                <div class="social-icon">📷</div>
+                <h3>Instagram</h3>
+                <p>Dagelijkse updates en inspiratie</p>
+            </a>
+            
+            <a href="#" class="social-link">
+                <div class="social-icon">🎵</div>
+                <h3>TikTok</h3>
+                <p>Korte workout video's en tips</p>
+            </a>
+            
+            <a href="#" class="social-link">
+                <div class="social-icon">📘</div>
+                <h3>Facebook</h3>
+                <p>Community en evenementen</p>
+            </a>
+            
+            <a href="#" class="social-link">
+                <div class="social-icon">📺</div>
+                <h3>YouTube</h3>
+                <p>Uitgebreide workout video's</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section section-dark">
+    <div class="faq-container">
+        <h2 class="faq-title">Veelgestelde Vragen</h2>
+        
+        <div class="faq-grid">
+            <div class="faq-item">
+                <h3>Hoe kan ik contact opnemen?</h3>
+                <p>Je kunt ons bellen op +31 6 23395561, een e-mail sturen via het contactformulier, of langskomen tijdens openingstijden.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Kan ik een proefles volgen?</h3>
+                <p>Ja, plan een gratis intake en proefles om te kijken of Max Gym bij jou past. Geen verplichtingen.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Wat zijn de openingstijden?</h3>
+                <p>Ma t/m Vr: 06:00 - 21:30 | Za & Zo: 07:00 - 18:00. We zijn 7 dagen per week open.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Is er parkeergelegenheid?</h3>
+                <p>Ja, er is gratis parkeergelegenheid voor leden. De sportschool is ook goed bereikbaar met het openbaar vervoer.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Kan ik mijn abonnement opzeggen?</h3>
+                <p>Ja, alle abonnementen zijn maandelijks opzegbaar. Geen verborgen kosten of opzegtermijnen.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>Zijn er inschrijfkosten?</h3>
+                <p>Nee, wij vragen geen inschrijfkosten. Je betaalt alleen de maandelijkse kosten van je abonnement.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section section-pattern">
+    <div class="cta-container">
+        <h2>Start vandaag nog</h2>
+        <p>Plan je gratis intake en ontdek hoe Max Gym jouw fitness naar een hoger niveau kan tillen.</p>
+        <div class="cta-buttons">
+            <a href="gratis-intake.html" class="cta-button">Plan Gratis Intake</a>
+            <a href="abonnementen.html" class="cta-button" style="background: transparent; border: 2px solid #6c1dff;">Bekijk Abonnementen</a>
+        </div>
+    </div>
+</section>
+
+<!-- TrainMore-Style Footer -->
+<footer class="trainmore-footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <div class="footer-logo-text capsmall-text">MAX GYM</div>
+        </div>
+        
+        <div class="footer-links">
+            <div class="footer-section">
+                <h4>OVER MAX</h4>
+                <ul>
+                    <li><a href="index.html">Over Max</a></li>
+                    <li><a href="abonnementen.html">Pakketten</a></li>
+                    <li><a href="contact.html">Merchandise</a></li>
+                    <li><a href="contact.html">Virtual tour</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>PLANS & COACHING</h4>
+                <ul>
+                    <li><a href="contact.html">Lifestyle Coaching</a></li>
+                    <li><a href="contact.html">Online Coaching</a></li>
+                    <li><a href="contact.html">Meal plans</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>TRAININGEN</h4>
+                <ul>
+                    <li><a href="personal-training.html">Personal Training</a></li>
+                    <li><a href="circuit-training.html">Circuit Training</a></li>
+                    <li><a href="kickboxing.html">Kickboksen</a></li>
+                    <li><a href="jeugdlessen.html">Jeugdlessen</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>CONTACT</h4>
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html">Openingstijden</a></li>
+                    <li><a href="contact.html">Locatie</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p><strong>Openingstijden:</strong> Ma t/m Vr: 06:00 - 21:30 | Za & Zo: 07:00 - 18:00</p>
+            <p><strong>Max Gym B.V.</strong> KvK 96744065 | Tel: +31 6 23395561 | Adres: Wattstraat 52 2723 RD, Zoetermeer</p>
+            <p><strong>Volg ons:</strong> Instagram | TikTok</p>
+            <div class="footer-legal">
+                <a href="#terms">Algemene voorwaarden</a>
+                <a href="#privacy">Privacy</a>
+                <a href="#cookies">Cookies</a>
+                <a href="#club-rules">Dongelreglement</a>
+                <a href="#house-rules">Huisreglement</a>
+            </div>
+            <p>&copy; 2025 Brand Survivors - Sinds 2023 - MAX GYM</p>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="max-gym-script.js"></script>
+
+</body>
+</html>

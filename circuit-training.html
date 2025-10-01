@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Circuit Training Zoetermeer - Max Gym</title>
+    
+    <!-- Performance optimizations -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    
+    <!-- Preconnect for critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Load fonts with proper fallbacks - Power & Strength Theme -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap">
+    
+    <!-- Custom woff2 fonts -->
+    <style>
+        @font-face {
+            font-family: 'Capsmall';
+            src: url('fonts/Capsmall.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'Capsmall Clean';
+            src: url('fonts/Capsmall_clean.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+    </style>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="max-gym-styles.css">
+    <link rel="stylesheet" href="new-sections-styles.css">
+</head>
+<body class="loading">
+
+<!-- Supergym-Style Navigation -->
+<nav class="supergym-nav">
+    <div class="nav-container">
+        <!-- Logo -->
+        <div class="nav-logo">
+            <a href="index.html">
+                <div class="logo-container">
+                    <img src="IMAGES/Max Gym Logo transparant.png" alt="Max Gym Logo" class="logo-image">
+                </div>
+            </a>
+        </div>
+
+        <!-- Navigation Menu -->
+        <div class="nav-menu">
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li class="dropdown">
+                    <a href="#training" class="nav-link">Aanbod</a>
+                    <div class="dropdown-content">
+                        <a href="personal-training.html">Personal Training</a>
+                        <a href="circuit-training.html" class="nav-link active">Circuit Training</a>
+                        <a href="kickboxing.html">Kickboksen</a>
+                        <a href="jeugdlessen.html">Jeugdlessen</a>
+                    </div>
+                </li>
+                <li><a href="abonnementen.html" class="nav-link">Abonnementen</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="nav-cta">
+            <a href="gratis-intake.html" class="cta-button">
+                GRATIS INTAKE
+            </a>
+        </div>
+
+        <!-- Mobile Toggle -->
+        <button class="mobile-toggle" id="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-links">
+            <a href="index.html">Home</a>
+            <a href="personal-training.html">Personal Training</a>
+            <a href="circuit-training.html">Circuit Training</a>
+            <a href="kickboxing.html">Kickboksen</a>
+            <a href="jeugdlessen.html">Jeugdlessen</a>
+            <a href="abonnementen.html">Abonnementen</a>
+            <a href="contact.html">Contact</a>
+            <a href="gratis-intake.html" class="mobile-cta">GRATIS INTAKE</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="trainmore-hero section-dark">
+    <div class="hero-background">
+        <div class="hero-slide active" style="background-image: url('IMAGES/Naamloos-65.jpg');"></div>
+    </div>
+    
+    <div class="hero-overlay"></div>
+    
+    <!-- Hero Content -->
+    <div class="hero-content">
+        <div class="hero-badge">
+            <span class="badge-text">Circuit Training Zoetermeer</span>
+        </div>
+        
+        <h1 class="hero-title">
+            <span class="title-main capsmall-text">CIRCUIT TRAINING</span>
+            <span class="title-sub capsmall-clean-text">Max Gym Zoetermeer</span>
+        </h1>
+        
+        <p class="hero-description">Bij circuit training van Max-Gym staan het bereiken van resultaat en het plezier hebben in sporten centraal. Deze training, begeleid door een ervaren trainer, biedt een complete lichaamstraining binnen slechts 60 minuten.</p>
+        
+        <div class="hero-actions">
+            <a href="gratis-intake.html" class="hero-cta-primary">
+                <span>Plan Gratis Intake</span>
+            </a>
+            <a href="abonnementen.html" class="hero-cta-primary" style="background: transparent; border: 2px solid #FA104A;">
+                <span>Bekijk Pakketten</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Circuit Training Content -->
+<section class="content non-critical section-dark">
+    <div class="container">
+        <h2 class="section-title">Efficiënte training voor iedereen</h2>
+        <p class="company-description" style="font-size: 1.3rem; font-weight: 500; text-align: center; max-width: 900px; margin: 0 auto 3rem auto; line-height: 1.8;">Het hoofddoel is om het circuit met alle bijbehorende technieken zo efficiënt mogelijk te doorlopen, waarbij cardio, snelle bewegingsovergangen en ononderbroken herhalingen voor elke spiergroep aan bod komen. De circuittrainingen zijn ontworpen voor iedereen, van beginners tot gevorderden en van jong tot oud.</p>
+        
+        <div class="services-grid">
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="IMAGES/Naamloos-65.jpg" alt="Complete lichaamstraining" loading="lazy">
+                </div>
+                <div class="service-icon">60 MIN</div>
+                <h3>Complete lichaamstraining</h3>
+                <p>Een volledige workout in slechts 60 minuten met cardio, krachttraining en flexibiliteit. Perfect voor drukke levensstijlen.</p>
+            </div>
+            
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="IMAGES/Naamloos-66.jpg" alt="Voor iedereen" loading="lazy">
+                </div>
+                <div class="service-icon">ALLE NIVEAUS</div>
+                <h3>Voor iedereen</h3>
+                <p>Van beginners tot gevorderden, van jong tot oud - iedereen kan meedoen aan circuit training. Oefeningen worden aangepast aan jouw niveau.</p>
+            </div>
+            
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="IMAGES/Naamloos-67.jpg" alt="Begeleid door experts" loading="lazy">
+                </div>
+                <div class="service-icon">EXPERT</div>
+                <h3>Begeleid door experts</h3>
+                <p>Ervaren trainers zorgen voor de juiste techniek en motivatie tijdens elke sessie. Je leert de oefeningen correct uitvoeren voor optimale resultaten.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Benefits Section -->
+<section class="benefits-section section-gray">
+    <div class="benefits-container">
+        <h2 class="benefits-title">Waarom Circuit Training bij Max Gym?</h2>
+        
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Tijdbesparend</h3>
+                    <p>In slechts 60 minuten een complete workout die normaal 2-3 uur zou duren. Perfect voor drukke levensstijlen.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Volledige lichaamstraining</h3>
+                    <p>Cardio, krachttraining en flexibiliteit in één sessie. Alle spiergroepen worden getraind voor een gebalanceerd resultaat.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Motiverende groepssfeer</h3>
+                    <p>Train samen met anderen voor extra motivatie en plezier. De groepssfeer zorgt voor een stimulerende omgeving.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Professionele begeleiding</h3>
+                    <p>Ervaren trainers zorgen voor de juiste techniek en aanpassingen op jouw niveau. Veilig en effectief trainen.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Training Structure -->
+<section class="content non-critical section-dark">
+    <h1 class="section-title">CIRCUIT TRAINING <span class="highlight brush-marker-accent">STRUCTUUR</span></h1>
+    
+    <div class="circuit-structure">
+        <div class="circuit-step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+                <h3>Warming-up (10 minuten)</h3>
+                <p>Dynamische warming-up om het lichaam voor te bereiden op de training en blessures te voorkomen.</p>
+            </div>
+        </div>
+        
+        <div class="circuit-step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+                <h3>Circuit Training (40 minuten)</h3>
+                <p>Verschillende stations met oefeningen voor kracht, cardio en flexibiliteit. Elke oefening wordt 30-60 seconden uitgevoerd.</p>
+            </div>
+        </div>
+        
+        <div class="circuit-step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+                <h3>Cooling-down (10 minuten)</h3>
+                <p>Stretching en ontspanningsoefeningen om het lichaam te laten herstellen en spierpijn te verminderen.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Circuit Exercises -->
+<section class="exercises-section section-gray">
+    <div class="exercises-container">
+        <h2 class="exercises-title">Circuit Oefeningen</h2>
+        <p>Onze circuit training bevat een gevarieerde mix van oefeningen die alle aspecten van fitness aanpakken:</p>
+        
+        <div class="exercises-grid">
+            <div class="exercise-category">
+                <h3>Krachttraining</h3>
+                <ul>
+                    <li>Push-ups en variaties</li>
+                    <li>Squats en lunges</li>
+                    <li>Plank en core oefeningen</li>
+                    <li>Dumbbell oefeningen</li>
+                </ul>
+            </div>
+            
+            <div class="exercise-category">
+                <h3>Cardio</h3>
+                <ul>
+                    <li>Burpees</li>
+                    <li>Mountain climbers</li>
+                    <li>Jumping jacks</li>
+                    <li>High knees</li>
+                </ul>
+            </div>
+            
+            <div class="exercise-category">
+                <h3>Flexibiliteit</h3>
+                <ul>
+                    <li>Dynamische stretches</li>
+                    <li>Yoga houdingen</li>
+                    <li>Mobiliteitsoefeningen</li>
+                    <li>Ontspanningstechnieken</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section section-pattern">
+    <div class="cta-container">
+        <h2>Start met Circuit Training</h2>
+        <p>Plan vandaag nog je gratis intake en ontdek hoe circuit training jouw fitness naar een hoger niveau kan tillen.</p>
+        <div class="cta-buttons">
+            <a href="gratis-intake.html" class="cta-button">Plan Gratis Intake</a>
+            <a href="abonnementen.html" class="cta-button" style="color: white; background: transparent; border: 2px solid #6c1dff;">Bekijk Pakketten</a>
+        </div>
+    </div>
+</section>
+
+<!-- TrainMore-Style Footer -->
+<footer class="trainmore-footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <div class="footer-logo-text capsmall-text">MAX GYM</div>
+        </div>
+        
+        <div class="footer-links">
+            <div class="footer-section">
+                <h4>OVER MAX</h4>
+                <ul>
+                    <li><a href="index.html">Over Max</a></li>
+                    <li><a href="abonnementen.html">Pakketten</a></li>
+                    <li><a href="contact.html">Merchandise</a></li>
+                    <li><a href="contact.html">Virtual tour</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>PLANS & COACHING</h4>
+                <ul>
+                    <li><a href="contact.html">Lifestyle Coaching</a></li>
+                    <li><a href="contact.html">Online Coaching</a></li>
+                    <li><a href="contact.html">Meal plans</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>TRAININGEN</h4>
+                <ul>
+                    <li><a href="personal-training.html">Personal Training</a></li>
+                    <li><a href="circuit-training.html">Circuit Training</a></li>
+                    <li><a href="kickboxing.html">Kickboksen</a></li>
+                    <li><a href="jeugdlessen.html">Jeugdlessen</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>CONTACT</h4>
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html">Openingstijden</a></li>
+                    <li><a href="contact.html">Locatie</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p><strong>Openingstijden:</strong> Ma t/m Vr: 06:00 - 21:30 | Za & Zo: 07:00 - 18:00</p>
+            <p><strong>Max Gym B.V.</strong> KvK 96744065 | Tel: +31 6 23395561 | Adres: Wattstraat 52 2723 RD, Zoetermeer</p>
+            <p><strong>Volg ons:</strong> Instagram | TikTok</p>
+            <div class="footer-legal">
+                <a href="#terms">Algemene voorwaarden</a>
+                <a href="#privacy">Privacy</a>
+                <a href="#cookies">Cookies</a>
+                <a href="#club-rules">Dongelreglement</a>
+                <a href="#house-rules">Huisreglement</a>
+            </div>
+            <p>&copy; 2025 Brand Survivors - Sinds 2023 - MAX GYM</p>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="max-gym-script.js"></script>
+
+</body>
+</html>

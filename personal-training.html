@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Personal Training Zoetermeer - Max Gym</title>
+    
+    <!-- Performance optimizations -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- DNS prefetch for external resources -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    
+    <!-- Preconnect for critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Load fonts with proper fallbacks - Power & Strength Theme -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap">
+    
+    <!-- Custom woff2 fonts -->
+    <style>
+        @font-face {
+            font-family: 'Capsmall';
+            src: url('fonts/Capsmall.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'Capsmall Clean';
+            src: url('fonts/Capsmall_clean.ttf') format('truetype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+    </style>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="max-gym-styles.css">
+    <link rel="stylesheet" href="new-sections-styles.css">
+</head>
+<body class="loading">
+
+<!-- Supergym-Style Navigation -->
+<nav class="supergym-nav">
+    <div class="nav-container">
+        <!-- Logo -->
+        <div class="nav-logo">
+            <a href="index.html">
+                <div class="logo-container">
+                    <img src="IMAGES/Max Gym Logo transparant.png" alt="Max Gym Logo" class="logo-image">
+                </div>
+            </a>
+        </div>
+
+        <!-- Navigation Menu -->
+        <div class="nav-menu">
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li class="dropdown">
+                    <a href="#training" class="nav-link">Aanbod</a>
+                    <div class="dropdown-content">
+                        <a href="personal-training.html" class="nav-link active">Personal Training</a>
+                        <a href="circuit-training.html">Circuit Training</a>
+                        <a href="kickboxing.html">Kickboksen</a>
+                        <a href="jeugdlessen.html">Jeugdlessen</a>
+                    </div>
+                </li>
+                <li><a href="abonnementen.html" class="nav-link">Abonnementen</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- CTA Button -->
+        <div class="nav-cta">
+            <a href="gratis-intake.html" class="cta-button">
+                GRATIS INTAKE
+            </a>
+        </div>
+
+        <!-- Mobile Toggle -->
+        <button class="mobile-toggle" id="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-links">
+            <a href="index.html">Home</a>
+            <a href="personal-training.html">Personal Training</a>
+            <a href="circuit-training.html">Circuit Training</a>
+            <a href="kickboxing.html">Kickboksen</a>
+            <a href="jeugdlessen.html">Jeugdlessen</a>
+            <a href="abonnementen.html">Abonnementen</a>
+            <a href="contact.html">Contact</a>
+            <a href="gratis-intake.html" class="mobile-cta">GRATIS INTAKE</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="trainmore-hero section-dark">
+    <div class="hero-background">
+        <div class="hero-slide active" style="background-image: url('IMAGES/Naamloos-63.jpg');"></div>
+    </div>
+    
+    <div class="hero-overlay"></div>
+    
+    <!-- Hero Content -->
+    <div class="hero-content">
+        <div class="hero-badge">
+            <span class="badge-text">Personal Training Zoetermeer</span>
+        </div>
+        
+        <h1 class="hero-title">
+            <span class="title-main capsmall-text">PERSONAL TRAINING</span>
+            <span class="title-sub capsmall-clean-text">Max Gym Zoetermeer</span>
+        </h1>
+        
+        <p class="hero-description">Bij Max Gym in Zoetermeer draait Personal Training om meer dan alleen beweging. Onze ervaren trainers en coaches staan klaar om jouw fitnessreis persoonlijk te begeleiden. Of je nu een beginner bent of een professionele sporter die zijn grenzen wil verleggen, onze experts begrijpen wat nodig is om resultaten te boeken.</p>
+        
+        <div class="hero-actions">
+            <a href="gratis-intake.html" class="hero-cta-primary">
+                <span>Plan Gratis Intake</span>
+            </a>
+            <a href="abonnementen.html" class="hero-cta-primary" style="background: transparent; border: 2px solid #FA104A;">
+                <span>Bekijk Pakketten</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Personal Training Content -->
+<section class="content non-critical section-dark">
+    <div class="container">
+        <h2 class="section-title">Intieme en professionele omgeving</h2>
+        <p class="company-description" style="font-size: 1.3rem; font-weight: 500; text-align: center; max-width: 900px; margin: 0 auto 3rem auto; line-height: 1.8;">Onze private gym biedt een intieme en professionele omgeving waar jij centraal staat. Met aandacht voor jouw specifieke doelen en behoeften, maken onze trainers gebruik van hun expertise om trainingen op maat te creëren. Geen standaardprogramma's, maar een aanpak die past bij jouw unieke lichaam en levensstijl.</p>
+        
+        <div class="services-grid">
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="IMAGES/Naamloos-59.jpg" alt="Personal Training 1-op-1" loading="lazy">
+                </div>
+                <div class="service-icon">1-OP-1</div>
+                <h3>Persoonlijke aandacht voor jouw doelen</h3>
+                <p>Bij Max Gym staat jouw doel centraal. Onze trainers luisteren naar wat jij wilt bereiken en ontwerpen een fitnessplan dat perfect aansluit op jouw wensen.</p>
+            </div>
+            
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="IMAGES/Naamloos-60.jpg" alt="Motivatie en begeleiding" loading="lazy">
+                </div>
+                <div class="service-icon">MOTIVATIE</div>
+                <h3>Blijvende Motivatie</h3>
+                <p>Een groot voordeel is de constante motivatie die je van je personal trainer ontvangt. Op dagen dat je minder zin hebt om te sporten, staat de trainer klaar om je aan te moedigen.</p>
+            </div>
+            
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="IMAGES/Naamloos-61.jpg" alt="Expert begeleiding" loading="lazy">
+                </div>
+                <div class="service-icon">EXPERT</div>
+                <h3>Leren van de Experts</h3>
+                <p>Bij Max Gym leer je de juiste technieken van ervaren trainers. Ze zorgen ervoor dat je elke oefening correct uitvoert, wat niet alleen betere resultaten oplevert maar ook blessures voorkomt.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Benefits Section -->
+<section class="benefits-section section-gray">
+    <div class="benefits-container">
+        <h2 class="benefits-title">Waarom Personal Training bij Max Gym?</h2>
+        
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Individuele begeleiding</h3>
+                    <p>1-op-1 training die volledig is afgestemd op jouw doelen, niveau en mogelijkheden. Geen standaardprogramma's, maar een persoonlijke aanpak.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Ervaren trainers</h3>
+                    <p>Onze trainers zijn vaak ex-topsporters met jarenlange ervaring. Ze combineren kennis, ervaring en passie om jouw training naar een hoger niveau te tillen.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Flexibele tijden</h3>
+                    <p>Training op tijden die jou uitkomen. Of je nu vroeg in de ochtend, tijdens de lunch of 's avonds wilt trainen, wij passen ons aan jouw schema aan.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-card">
+                <div class="benefit-content">
+                    <h3>Moderne apparatuur</h3>
+                    <p>Train met de nieuwste Panatta-apparatuur van topkwaliteit. Professionele fitnessapparatuur die je normaal alleen in top sportscholen vindt.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Training Options -->
+<section class="content non-critical section-dark">
+    <h1 class="section-title">PERSONAL TRAINING <span class="highlight brush-marker-accent">OPTIEs</span></h1>
+    
+    <div class="training-options">
+        <div class="training-option">
+            <div class="option-image">
+                <img src="IMAGES/Naamloos-63.jpg" alt="Individuele Personal Training" loading="lazy">
+            </div>
+            <div class="option-content">
+                <h3>Individuele Personal Training</h3>
+                <p><strong>1-OP-1 BEGELEIDING</strong> - Volledige aandacht voor jouw doelen. Perfect voor beginners die de juiste techniek willen leren of gevorderden die hun grenzen willen verleggen.</p>
+                <ul>
+                    <li>Persoonlijke begeleiding</li>
+                    <li>Training op maat</li>
+                    <li>Flexibele tijden</li>
+                    <li>Voortgangsmonitoring</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="training-option">
+            <div class="option-image">
+                <img src="IMAGES/Naamloos-65.jpg" alt="Duo Training" loading="lazy">
+            </div>
+            <div class="option-content">
+                <h3>Duo Training</h3>
+                <p><strong>SAMEN SPORTEN VOOR EXTRA MOTIVATIE</strong> - Train samen met een partner, vriend of familielid. Meer plezier en motivatie door samen te trainen.</p>
+                <ul>
+                    <li>Training met partner</li>
+                    <li>Extra motivatie</li>
+                    <li>Lagere kosten per persoon</li>
+                    <li>Gezamenlijke doelen</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="training-option">
+            <div class="option-image">
+                <img src="IMAGES/Naamloos-67.jpg" alt="Ouder-Kind Training" loading="lazy">
+            </div>
+            <div class="option-content">
+                <h3>Ouder-Kind Training</h3>
+                <p><strong>FAMILIE FITNESS</strong> - Speciaal voor ouders die samen met hun kinderen willen sporten. Een gezonde levensstijl voor het hele gezin.</p>
+                <ul>
+                    <li>Gezinsfitness</li>
+                    <li>Veilige omgeving</li>
+                    <li>Leeftijdsgeschikte oefeningen</li>
+                    <li>Bonding momenten</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section section-pattern">
+    <div class="cta-container">
+        <h2>Start jouw Personal Training journey</h2>
+        <p>Plan vandaag nog je gratis intake en ontdek hoe wij jouw fitness doelen gaan bereiken.</p>
+        <div class="cta-buttons">
+            <a href="gratis-intake.html" class="cta-button">Plan Gratis Intake</a>
+            <a href="abonnementen.html" class="cta-button" style="color: white; background: transparent; border: 2px solid #6c1dff;">Bekijk Pakketten</a>
+        </div>
+    </div>
+</section>
+
+<!-- TrainMore-Style Footer -->
+<footer class="trainmore-footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <div class="footer-logo-text capsmall-text">MAX GYM</div>
+        </div>
+        
+        <div class="footer-links">
+            <div class="footer-section">
+                <h4>OVER MAX</h4>
+                <ul>
+                    <li><a href="index.html">Over Max</a></li>
+                    <li><a href="abonnementen.html">Pakketten</a></li>
+                    <li><a href="contact.html">Merchandise</a></li>
+                    <li><a href="contact.html">Virtual tour</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>PLANS & COACHING</h4>
+                <ul>
+                    <li><a href="contact.html">Lifestyle Coaching</a></li>
+                    <li><a href="contact.html">Online Coaching</a></li>
+                    <li><a href="contact.html">Meal plans</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>TRAININGEN</h4>
+                <ul>
+                    <li><a href="personal-training.html">Personal Training</a></li>
+                    <li><a href="circuit-training.html">Circuit Training</a></li>
+                    <li><a href="kickboxing.html">Kickboksen</a></li>
+                    <li><a href="jeugdlessen.html">Jeugdlessen</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>CONTACT</h4>
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html">Openingstijden</a></li>
+                    <li><a href="contact.html">Locatie</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p><strong>Openingstijden:</strong> Ma t/m Vr: 06:00 - 21:30 | Za & Zo: 07:00 - 18:00</p>
+            <p><strong>Max Gym B.V.</strong> KvK 96744065 | Tel: +31 6 23395561 | Adres: Wattstraat 52 2723 RD, Zoetermeer</p>
+            <p><strong>Volg ons:</strong> Instagram | TikTok</p>
+            <div class="footer-legal">
+                <a href="#terms">Algemene voorwaarden</a>
+                <a href="#privacy">Privacy</a>
+                <a href="#cookies">Cookies</a>
+                <a href="#club-rules">Dongelreglement</a>
+                <a href="#house-rules">Huisreglement</a>
+            </div>
+            <p>&copy; 2025 Brand Survivors - Sinds 2023 - MAX GYM</p>
+        </div>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="max-gym-script.js"></script>
+
+</body>
+</html>
